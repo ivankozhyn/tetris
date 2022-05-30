@@ -1,0 +1,25 @@
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  display: grid;
+  gap: 50px;
+  align-items: start;
+  grid-template-areas:
+    'next game'
+    'score game';
+}
+
+.game-area {
+  border: solid black;
+  border-width: 0 2px 3px 2px;
+  display: block;
+}
